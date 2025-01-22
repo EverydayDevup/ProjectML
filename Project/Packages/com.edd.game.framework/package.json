@@ -1,0 +1,9 @@
+{
+  "name": "com.edd.game.framework",
+  "displayName": "EDDFramework",
+  "author": {
+    "name": "everyday.devup"
+  },
+  "version": "0.0.1",
+  "dependencies": {}
+}
