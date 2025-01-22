@@ -10,7 +10,7 @@
 >> 가벼운 로딩 씬을 추가함으로써 불필요한 메모리 증가를 막음
 > 3. 옵저버 패턴 추가
 >> 스크립트 간의 의존성을 줄이기 위해 이벤트 시스템을 추가.\
->> Gamepad를 움직일 경우, EventMessenger를 구독하는 객체에게 메시지를 보냄
+>> Gamepad를 움직일 경우, EventMessenger에서 GamepadMove 를 구독하는 객체에게 메시지를 보냄
 > 4. 싱글톤 추가
 >> MonoSingleton과 C# Singleton으로 나누어 Generic으로 구현
 > 5. 게임 패드 개선
