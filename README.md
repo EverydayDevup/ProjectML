@@ -18,3 +18,6 @@
 >> PointDown 위치에서 핸드러를 움직일 수도 있지만, 핸들의 배경은 움직일 수 있는 방안이 없음
 >> GamepadArea를 추가하여 PointerDown 위치로 방향패드가 움직이고 핸들도 움직일 수 있도록 추가\
 ![Gamepad](Gif/Day01.Gamepad.gif)
+> 6. 노치 대응
+>> 단말기의 노치 대응을 위해 SafeAreaHelper 패키지를 추가 
+> https://assetstore.unity.com/packages/tools/gui/safe-area-helper-130488
