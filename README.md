@@ -24,3 +24,8 @@
 > 7. Debug.Log를 대체할 수 있는 Logger 클래스 추가
 >> EDD_DEBUG 전처리기를 사용해서 Conditional Attribute 사용 \
 >> 릴리즈 버전에서 로그와 관련된 함수 부분이 포함되지 않도록 함.
+
+## Build
+> 빌드 폴더 위치
+> Builds/플랫폼/ProjectML
+>> [Windos 실행파일 경로](Builds/Windows/ProjecML.exe)
