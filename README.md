@@ -28,4 +28,4 @@
 ## Build
 > 빌드 폴더 위치
 > Builds/플랫폼/ProjectML
->> [Windos 실행파일 경로](Builds/Windows/ProjecML.exe)
+>> <a href="https://github.com/EverydayDevup/ProjectMR/tree/main/Builds/Windows" download>Windows 실행파일 경로</a>
