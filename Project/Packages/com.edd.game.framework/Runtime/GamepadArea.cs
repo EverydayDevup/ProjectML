@@ -9,18 +9,6 @@ namespace EDD
         [SerializeField] private OnScreenStick screenStick;
         [SerializeField] private RectTransform gamepadRect;
 
-        private RectTransform _rectTrans;
-        private RectTransform RectTrans
-        {
-            get
-            {
-                if (!_rectTrans)
-                    _rectTrans = (RectTransform)transform;
-
-                return _rectTrans;
-            }
-        }
-
         public void OnPointerDown(PointerEventData eventData)
         {
             if (eventData == null)
@@ -37,6 +25,8 @@ namespace EDD
         {
             screenStick.OnPointerUp(eventData);
             gamepadRect.anchoredPosition = Vector2.zero;
+            
+            EventMessenger.Broadcast((int)EEventType.GamepadOnRelease);
         }
 
         public void OnDrag(PointerEventData eventData)

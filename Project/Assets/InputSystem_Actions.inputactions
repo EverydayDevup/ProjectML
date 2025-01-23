@@ -94,7 +94,7 @@
                     "path": "<Gamepad>/leftStick",
                     "interactions": "",
                     "processors": "NormalizeVector2",
-                    "groups": ";Gamepad",
+                    "groups": ";Gamepad;Keyboard&Mouse;Touch",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false

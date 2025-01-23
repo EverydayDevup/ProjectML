@@ -225,6 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bd078f785d2d954a8cf93f32baabe3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stage: {fileID: 0}
 --- !u!1 &578645162
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +631,10 @@ PrefabInstance:
     - target: {fileID: 3014323629260659858, guid: c5694ee571413c5468a27cfaf6b65245, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217025030904391105, guid: c5694ee571413c5468a27cfaf6b65245, type: 3}
+      propertyPath: m_ControlPath
+      value: <Gamepad>/leftStick
       objectReference: {fileID: 0}
     - target: {fileID: 5406076884548904806, guid: c5694ee571413c5468a27cfaf6b65245, type: 3}
       propertyPath: m_AnchorMax.x

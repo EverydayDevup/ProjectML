@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1428,7 +1428,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adcc9bf796b52e4689c6a050361b8ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gamepad: {fileID: 0}
 --- !u!1 &6643131379078406464
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,7 +1733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.6117647}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
   m_OnCullStateChanged:
