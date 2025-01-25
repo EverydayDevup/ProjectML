@@ -8,6 +8,7 @@
 struct GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C const RuntimeMethod* GridLayout_DoNothing_mA280987BF98D257023D46C2C01902FC82EE6A00A_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -86,6 +87,13 @@ struct GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B  : public Behaviour_
 #endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayout_DoNothing_mA280987BF98D257023D46C2C01902FC82EE6A00A (GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GridLayout_DoNothing_mA280987BF98D257023D46C2C01902FC82EE6A00A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GridLayout_DoNothing_mA280987BF98D257023D46C2C01902FC82EE6A00A_RuntimeMethod_var);
 	{
 		return;
 	}

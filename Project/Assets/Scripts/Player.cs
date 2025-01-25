@@ -1,4 +1,5 @@
 using System;
+using Cysharp.Threading.Tasks;
 using EDD;
 using UnityEngine;
 
@@ -11,6 +12,8 @@ public class Player : MonoBehaviour
     private Action<EventArg> onMoveRelease;
     private Rigidbody2D _rigidbody2D;
     private float _speed;
+    private Animator _animator;
+    private SpriteRenderer _spriteRenderer;
     
     private void Awake()
     {
@@ -21,6 +24,19 @@ public class Player : MonoBehaviour
         EventMessenger.Register((int)EEventType.GamepadOnRelease, onMoveRelease);
         
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        
+        Attack().Forget();
+    }
+
+    private async UniTaskVoid Attack()
+    {
+        while (true)
+        {
+            await UniTask.Delay(200);
+            _animator.SetTrigger("Attack");
+        }
     }
 
     private void OnDestroy()
@@ -31,6 +47,7 @@ public class Player : MonoBehaviour
     private void OnMoveRelease(EventArg arg)
     {
         _speed = 0;
+        _animator.SetBool("IsMove", false);
     }
 
     private void OnMove(EventArg arg)
@@ -39,6 +56,11 @@ public class Player : MonoBehaviour
         {
             dir = moveArg.Dir;
             _speed = speed;
+            _animator.SetBool("IsMove", true);
+            if (dir.x > 0)
+                _spriteRenderer.flipX = true;
+            else
+                _spriteRenderer.flipX = false;
         }
     }
 

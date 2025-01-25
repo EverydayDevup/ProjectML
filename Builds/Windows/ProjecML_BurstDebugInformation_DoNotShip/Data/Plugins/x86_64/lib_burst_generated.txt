@@ -10,6 +10,7 @@ Library: C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_b
 --linker-options=PdbAltPath="ProjecML_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Project\ProjectMR\Project\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Project\ProjectMR\Project\Library\Burst
 --output=C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
@@ -126,6 +127,7 @@ Library: C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_b
 --linker-options=PdbAltPath="ProjecML_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Project\ProjectMR\Project\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Project\ProjectMR\Project\Library\Burst
 --output=C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
@@ -242,6 +244,7 @@ Library: C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_b
 --linker-options=PdbAltPath="ProjecML_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Project\ProjectMR\Project\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Project\ProjectMR\Project\Library\Burst
 --output=C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
@@ -264,6 +267,7 @@ Library: C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_b
 --linker-options=PdbAltPath="ProjecML_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Project\ProjectMR\Project\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Project\ProjectMR\Project\Library\Burst
 --output=C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
@@ -288,6 +292,7 @@ Library: C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_b
 --linker-options=PdbAltPath="ProjecML_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Project\ProjectMR\Project\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Project\ProjectMR\Project\Library\Burst
 --output=C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
@@ -308,6 +313,7 @@ Library: C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_b
 --linker-options=PdbAltPath="ProjecML_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Project\ProjectMR\Project\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Project\ProjectMR\Project\Library\Burst
 --output=C:\Project\ProjectMR\Project\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
