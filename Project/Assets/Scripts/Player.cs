@@ -7,13 +7,15 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float speed;
 
-    private Vector2 dir;
+    private Vector2 dir = Vector2.up;
     private Action<EventArg> onMove;
     private Action<EventArg> onMoveRelease;
     private Rigidbody2D _rigidbody2D;
     private float _speed;
     private Animator _animator;
     private SpriteRenderer _spriteRenderer;
+
+    public Vector2 Dir => dir;
     
     private void Awake()
     {

@@ -11,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Bullet
+  - Hero
+  - Enemy
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
     locked: 0
   - name: Unit
     uniqueID: 3507542243
+    locked: 0
+  - name: Bullet
+    uniqueID: 3474048363
     locked: 0
   m_RenderingLayers:
   - Default
