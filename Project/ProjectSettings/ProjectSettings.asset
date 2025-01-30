@@ -775,6 +775,7 @@ PlayerSettings:
     PS5: DOTWEEN
     QNX: DOTWEEN
     ReservedCFE: DOTWEEN
+    Server: 
     Standalone: DOTWEEN;EDD_DEBUG
     VisionOS: DOTWEEN
     WebGL: DOTWEEN
