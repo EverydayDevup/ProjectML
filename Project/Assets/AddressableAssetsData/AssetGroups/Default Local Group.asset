@@ -15,11 +15,6 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 2a358789bca69d4438ef869c98289fa4
   m_SerializeEntries:
-  - m_GUID: 49a2b8e32c00f6e41a21bea30b410836
-    m_Address: Fonts/DNFBitBitv2 SDF
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c063b8838547e2a43b2bc028b1d5aa34
     m_Address: Assets/Prefabs/Loading.prefab
     m_ReadOnly: 0

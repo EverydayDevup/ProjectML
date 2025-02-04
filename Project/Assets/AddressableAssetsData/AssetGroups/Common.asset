@@ -14,7 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Common
   m_GUID: 49869c61134ba1b4c835f9c5afb6840a
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 21db28c341f66e54d84aaea57ea52631
+    m_Address: Assets/Fonts/NotoSansCJKkr-Bold.otf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e3714110ad3a75408ea8799e0a91d21
+    m_Address: Assets/Fonts/DNFBitBitv2 SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e3864d889e31ac499d04685d493ada3
+    m_Address: Assets/Fonts/NotoSansCJKkr-Regular SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95191438a4dd7844bbd0c12e2d1f8ebe
+    m_Address: Assets/Fonts/NotoSansCJKkr-Regular.otf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfa628be7bced0d498bf7700a343aebe
+    m_Address: Assets/Fonts/NotoSansCJKkr-Bold SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d610cd2dc92bc314dae108dee1b950bd
+    m_Address: Assets/Fonts/DNFBitBitv2.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 3c85b494b6aa4ed4da3826f8942dbae6, type: 2}
   m_SchemaSet:

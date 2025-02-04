@@ -64,9 +64,14 @@
 >>> 
 >> 텍스트에 효과를 줄 경우, 효과를 적용한 메테리얼을 추가 \
 >> 텍스트에 Bold / Italic 효과를 주기위해서 컴포넌트에 B/I를 하는 경우가 있지만 폰트 에셋에 Bold / Italic을 추가하는 것이 더 예쁘게 나옴 \
->> TextMesh Pro/Settings 에서 Korean Language Options/User Modern Line Breaking을 사용하면 한국어 띄어쓰기가 자연스러워짐
-
-
+>> TextMesh Pro/Settings 에서 Korean Language Options/User Modern Line Breaking을 사용하면 한국어 띄어쓰기가 자연스러워짐 \
+>> NotoSansCJKkr 은 중국어/일어/한국어를 지원하는 구글 무료 폰트 \
+>>
+>> 폰트 최적화
+>>> 리소스 폴더의 폰트는 어셋번들을 받기전까지 사용할 글자의 폰트를 Static으로 설정 \
+>>> 어셋 번들로 받을 폰트 중 UI에 표시될 글자의 폰트는 Static으로 설정 \
+>>> : 설정한 언어에 따라 어셋 번들을 받을 수 있도록 구분하면 초기 다운로드 용량을 줄일 수 있음 \
+>>> 이름과 같이 다양한 텍스트 정보가 표시될 경우를 위해 다이나믹 폰트 설정
 
 ## Build
 > 빌드 폴더 위치
