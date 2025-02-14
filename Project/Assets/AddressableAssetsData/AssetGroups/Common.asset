@@ -20,11 +20,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5e3714110ad3a75408ea8799e0a91d21
-    m_Address: Assets/Fonts/DNFBitBitv2 SDF.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7e3864d889e31ac499d04685d493ada3
     m_Address: Assets/Fonts/NotoSansCJKkr-Regular SDF.asset
     m_ReadOnly: 0
@@ -37,11 +32,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cfa628be7bced0d498bf7700a343aebe
     m_Address: Assets/Fonts/NotoSansCJKkr-Bold SDF.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d610cd2dc92bc314dae108dee1b950bd
-    m_Address: Assets/Fonts/DNFBitBitv2.ttf
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 8326369886208
-    m_Localized: Test
+    m_Localized: Press the button to start immediately.
     m_Metadata:
       m_Items: []
   references:
