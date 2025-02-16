@@ -5,7 +5,7 @@ namespace EDD
     public class MonoSingleton<T> : MonoBehaviour where T : class
     {
        private static T _instance;
-       private static readonly object _lock = new object();
+       private static readonly object _lock = new ();
 
        public static T Instance
        {

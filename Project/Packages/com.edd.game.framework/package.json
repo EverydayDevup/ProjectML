@@ -5,5 +5,5 @@
     "name": "everyday.devup"
   },
   "version": "0.0.1",
-  "dependencies": {}
+  "description": "This is a package that bundles functions commonly used during game development."
 }
